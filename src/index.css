@@ -1,3 +1,244 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    overflow-x: hidden;
+}
+::selection{
+    color: white;
+    background-color: black;
+}
+
+#hero-container{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#bg-image{
+    overflow: hidden;
+}
+#bg-image img{
+    margin: 0px 40px;
+    rotate: -30deg;
+    border-radius: 7px;
+    position: relative;
+    height: 50px;
+    z-index: 2;
+}
+#wrapper h2{
+    margin-top: 10px;
+}
+#cntc{
+    border: 1px solid white;
+}
+#avb{
+    z-index: 19;
+}
+#hero-text{
+    z-index: 10;
+}
+#hero-text h1, #hero-text p{
+    z-index: 11;
+}
+#expo div{
+    z-index: -100;
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: black;
+}
+/* ::-webkit-scrollbar-thumb{
+    background-color: white;
+} */
+#icon-slider img{
+    height: 100px;
+    display: inline;
+    position: relative;
+    border-radius: 12px;
+}
+#tg{
+    width: 40vw;
+}
+#tg h1{
+    border: 1px solid white;
+    border-radius: 12px;
+    display: flex;
+    padding: 7px;
+    display: inline-block;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+
+}
+#navigation a{
+    margin: 0 15px;
+}
+@media (max-width: 1405px) {
+    #hero-text h1{
+        font-size: 40px;
+    }
+    #img-cont{
+        margin-top: 0;
+    }
+}
+@media (max-width: 1020px) {
+    #expo p{
+        font-size: 9px;
+    }
+    #navigation {
+        justify-content: center;
+    }
+    #navigation a{
+        width: 10vw;
+    }
+    #navigation a:nth-child(3){
+        width: 15vw;
+    }
+    #header{
+        justify-content: space-between;
+        padding: 0px 30px;
+    }
+    #hero-container{
+        width: 75vw;
+        height: 55vh;
+    }
+    #expo{
+        width: 70vw;
+    }
+    
+}
+@media (max-width: 1373px) {
+    #expo h1{
+        font-size: 30px;
+    }
+    #cntc{
+        display: none;
+    }
+    #expo p{
+        font-size: 13px;
+    }
+    #bg-image img{
+        margin: 0px 30px;
+    }
+    #hero-text p{
+        width: 65%;
+    }
+    #highlight{
+        font-size:  35px;
+        margin-bottom: 10px;
+    }
+    #highlight-2{
+        font-size:  15px;
+    }
+    #img-cont img{
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1000px) {
+    #highlight{
+        font-size:  30px;
+        margin-bottom: 10px;
+    }
+    #highlight-2{
+
+        font-size:  12px;
+    }
+    #lil-text{
+        width: 50vw;
+    }
+    
+}
+@media (max-width: 850px) {
+    #img-cont{
+        margin-left: 0;
+    }
+    
+}
+@media (max-width: 800px) {
+    #navigation a:nth-child(3){
+        display: none;
+    }
+    #tg{
+        width: 70vw;
+    }
+    #hero-container{
+        width: 75vw;
+        height: 55vh;
+    }
+    #expo{
+        width: 70vw;
+    }
+    #expo h1{
+        font-size: 25px
+    }
+}
+@media (max-width: 680px) {
+    #expo h1{
+        font-size: 21px;
+    }
+    #highlight{
+        font-size:  20px;
+        margin-bottom: 10px;
+    }
+    #highlight-2{
+
+        font-size:  12px;
+    }
+    #lil-text{
+        width: 50vw;
+    }
+    
+}
+@media (max-width: 580px) {
+    #header #logo h1{
+        font-size: 20px;
+    }
+    #lil-text{
+        display: none;
+    }
+   
+    #img-cont{
+        margin-top: 50px;
+        grid-column: span 3;
+    }
+    #skills{
+        margin-top: 0;
+        grid-column: span 4;
+    }
+    #skills h1{
+        margin-top: 0;
+    }
+    #hero-main #hero-container{
+        margin-top: 20px;
+        height: 65vh;
+        width: 85vw;
+    }
+    #expo{
+        width: 80vw;
+    }
+    #expo h1{
+        font-size: 18px;
+    }
+    #expo p{
+        font-size: 13px;
+    }
+    #exp-box-1{
+        width: 20vw;
+    }
+    #exp-box-2{
+        width: 20vw;
+    }
+    #exp-box-4{
+        width: 20vw;
+    }
+    #exp-box-3{
+        width: 20vw;
+    }
+    #bg-image{
+        margin-top: 0;
+        height: 65vh;
+        width: 85vw;
+    }
+    #bg-image img{
+        margin: 10px;
+    }
+}
