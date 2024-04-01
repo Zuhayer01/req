@@ -33,8 +33,7 @@ const Hero = () => {
             transition={{ duration: 1.2, delay: 9.2, ease: [0.76, 0, 0.24, 1] }}
             className="font-Poppins text-sm text-center w-[70%] mt-2 overflow-hidden z-10"
           >
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed,
-            consectetur magni laboriosam sint ut totam animi hic amet iusto
+            Hey there, I'm Zuhayer. I've spent the past 2 years spending a huuge time on Web development. Now I can say that you can expect some good stuff from me.
           </motion.p>
           <motion.button
             initial={{ y: 300, opacity: 0 }}
@@ -53,7 +52,7 @@ const Hero = () => {
           className="-z-10"
             initial={{ top: "-100px" }}
             animate={{ top: "100%" }}
-            transition={{ duration: 5, delay: 9, repeat: Infinity }}
+            transition={{ duration: 5, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../pngegg.png"
             alt=""
           />
@@ -61,7 +60,7 @@ const Hero = () => {
           className="-z-10"
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
-            transition={{ duration: 7, delay: 9, repeat: Infinity }}
+            transition={{ duration: 7, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../JavaScript-logo.png"
             alt=""
           />
@@ -69,7 +68,7 @@ const Hero = () => {
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
             className="-z-10"
-            transition={{ duration: 8, delay: 9, repeat: Infinity }}
+            transition={{ duration: 8, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../logo.png"
             alt=""
           />
@@ -77,7 +76,7 @@ const Hero = () => {
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
             className="-z-10"
-            transition={{ duration: 6, delay: 9, repeat: Infinity }}
+            transition={{ duration: 6, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../greensock_2x-removebg-preview.png"
             alt=""
           />
@@ -85,7 +84,7 @@ const Hero = () => {
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
             className="-z-10"
-            transition={{ duration: 4, delay: 9, repeat: Infinity }}
+            transition={{ duration: 4, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../react-1-logo-png-transparent-removebg-preview.png"
             alt=""
           />
@@ -93,7 +92,7 @@ const Hero = () => {
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
             className="-z-10"
-            transition={{ duration: 9, delay: 9, repeat: Infinity }}
+            transition={{ duration: 9, delay: 9, repeat: Infinity, ease: "linear" }}
             src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.png"
             alt=""
           />

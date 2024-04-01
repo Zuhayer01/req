@@ -8,52 +8,66 @@ const Aboutme = () => {
         data-scroll
         data-scroll-speed=".1"
         data-scroll-section
-        id="grid-container"
-        className="bg-black grid gap-5 grid-cols-4 mix-blend-difference h-[100vh] w-[100vw] p-10 mt-24"
+        id="about-me-container"
+        className="h-[100vh] w-[100vw] bg-black rounded-3xl flex items-center justify-center"
       >
-        <div className="h-[40vh] flex place-items-center justify-center ml-10 mt-10" id="img-cont">
-          <img
-            src="../download (4).jpeg"
-            alt="Error Loading Image"
-            className="rounded-full"
-          />
+        <div id="my-image" className="h-full w-1/2 flex items-center justify-center">
+          <img src="../zuhayer.png" alt="" className="h-[60vh] rounded-3xl"/>
         </div>
-        <div className="h-[40vh] col-span-3 flex items-center justify-center flex-col ml-20" id="lil-text">
-          <h1 className="font-Poppins text-5xl text-white font-light mb-10" id="highlight">
-            A Little About me
-          </h1>
-          <p className="font-Poppins text-lg text-white font-light w-3/4 text-center"id="highlight-2" >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            saepe culpa rem magni itaque ducimus necessitatibus voluptatem cum
-            adipisci dicta dolor hic nisi rerum nemo velit officia a, repellat
-            quia magnam quasi consequatur placeat porro 
-          </p>
-        </div>
-
-        <div className="h-[40vh] col-span-3 flex items-center justify-center flex-col mt-10" id="skills">
-          <h1 className="text-3xl font-Poppins font-light text-center mt-6 text-white">
-            Things I'm <span className="text-green-500 font-light">Good</span> At
-          </h1>
-          <div
-            id="tg"
-            className="mt-4 overflow-hidden"
-          >
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">Html</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">CSS</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">Javascript</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">React</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">Locomotive</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">Responsiveness</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">GSAP</h1>
-            <h1 className="text-xl font-Poppins font-extralight text-white text-center">Framer Motion</h1>
+        <div id="infos" className="h-full flex items-center justify-center flex-col">
+          <div id="top-text" className="w-full ">
+            <h1 className="text-white font-Poppins text-4xl">Hi,I'm</h1>
           </div>
-        </div>
-        <div className="h-[25vh] mt-20 flex flex-col rounded-lg text-white" id="cntc">
-          <h1 className=" font-light text-4xl font-Poppins mt-5 ml-6">Contact Me</h1>
-          <div id="wrapper" className="ml-7 mt-4">
-          <h2 className=" font-light text-xl font-Poppins"> <i class="ri-phone-line  text-2xl mr-4"></i>017XXXXXXX</h2>
-          <h2 className=" font-light text-xl font-Poppins"><i class="ri-map-pin-line text-2xl mr-4" ></i>Chicago, USA</h2>
-          <h2 className=" font-light text-xl font-Poppins"  ><i class="ri-mail-line text-2xl mr-4"></i>zuhayer01@gmail.com</h2>
+          <div id="details-text" className="w-[50vw] ">
+            <h1 className="text-white w-[40vw] mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, temporibus doloremque fugit quaerat, autem exercitationem natus harum fuga nobis dolores minima, excepturi quia atque? Exercitationem, maiores, unde delectus atque odio non quos voluptatum laudantium aut ipsum saepe animi. Officiis labore quisquam aliquid maiores sit illo similique debitis dignissimos, velit inventore.</h1>
+          </div>
+          <div className="w-[50vw]">
+               <h1 className="text-white font-Poppins text-2xl  mt-8 mb-4 text-left">I'm Good with</h1>
+            </div>
+          <div id="skill-icons" className="w-[50vw] ">
+            <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">
+              <img src="../logo.png" alt="" className="h-[1.5vw] inline-block"/>
+               <h1 className="inline-block font-Poppins">HTML</h1>
+            </div>
+            <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
+              <img src="../pngegg.png" alt="" className="h-[1.5vw] inline-block"/>
+               <h1 className="inline-block font-Poppins">CSS</h1>
+            </div>
+            <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
+              <img src="../Javascript-logo.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+               <h1 className="inline-block font-Poppins ml-2">JavaScript</h1>
+            </div>
+            <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
+              <img src="../react-1-logo-png-transparent-removebg-preview.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+               <h1 className="inline-block font-Poppins ml-2">React</h1>
+            </div>
+            <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
+              <img src="../greensock_2x-removebg-preview.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+               <h1 className="inline-block font-Poppins ml-2">Gsap</h1>
+            </div>
+            <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
+              <img src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.png" alt="" className="h-[1.5vw] inline-block"/>
+               <h1 className="inline-block font-Poppins">Framer Motion</h1>
+            </div>
+          </div>
+          <div id="otherSkills" className="w-[50vw] mt-4 ">
+          <div className="w-[50vw]" id="mother">
+               <h1 className="text-white font-Poppins text-2xl text-left mb-3">Side Skills</h1>
+            </div>
+            <div>
+            <div className="bg-white inline-block mr-3 px-4 py-2 rounded-3xl">
+              <img src="../open-ai-logo-8B9BFEDC26-seeklogo.com.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+               <h1 className="inline-block font-Poppins ml-2">AI Tools</h1>
+            </div>
+            <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">
+              <img src="../Microsoft Office.png" alt="" className="h-[1.5vw] inline-block"/>
+               <h1 className="inline-block font-Poppins">Office Softwares</h1>
+            </div>
+            <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="" className="h-[1.3vw] mr-2 inline-block"/>
+               <h1 className="inline-block font-Poppins">Github</h1>
+            </div>
+            </div>
           </div>
         </div>
       </div>

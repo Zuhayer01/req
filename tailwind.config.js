@@ -16,7 +16,8 @@ export default {
         'hero': "url('../Untitled design (1).png')",
         'abstract' : "url('../ab.png')",
         'abstracted' : "url('../ab2.png')",
-        'about' : "url(../wtf.png)"
+        'transparent' : "url(../Untitled design (4).png)",
+        'myimage' : "url(../zuhayer.png)",
       }
     },
   },

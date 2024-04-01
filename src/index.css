@@ -2,14 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    /* cursor: none; */
+    font-family: "Poppins", "sans-serif";
+}
 body{
     overflow-x: hidden;
 }
+
 ::selection{
     color: white;
     background-color: black;
 }
-
+#card{
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    -10px -10px 10px -1px rgba(10, 100, 169, 0.055) ;
+}
 #hero-container{
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -70,7 +78,13 @@ body{
 
 }
 #navigation a{
+    pointer-events: visible;
     margin: 0 15px;
+}
+
+
+#box-1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media (max-width: 1405px) {
     #hero-text h1{
@@ -95,7 +109,7 @@ body{
     }
     #header{
         justify-content: space-between;
-        padding: 0px 30px;
+        padding: 0px 40px;
     }
     #hero-container{
         width: 75vw;
@@ -208,8 +222,9 @@ body{
         margin-top: 0;
     }
     #hero-main #hero-container{
-        margin-top: 20px;
-        height: 65vh;
+        /* margin-top: ; */
+        margin-top: 50px;
+        height: 53vh;
         width: 85vw;
     }
     #expo{
@@ -219,7 +234,7 @@ body{
         font-size: 18px;
     }
     #expo p{
-        font-size: 13px;
+        font-size: 11px;
     }
     #exp-box-1{
         width: 20vw;
@@ -235,10 +250,314 @@ body{
     }
     #bg-image{
         margin-top: 0;
-        height: 65vh;
+        height: 52vh;
         width: 85vw;
     }
     #bg-image img{
         margin: 10px;
+    }
+}
+/* 
+styling of the about me section */
+@media (max-width: 1050px) {
+    #about-me-container{
+        flex-direction: column;
+    }
+    #my-image img{
+        height: 30vh;
+        width: 21vw;
+    }
+    #my-image {
+        display: none;
+        justify-content: center;
+    }
+    #infos{
+        width: 100vw;
+    }
+    #infos h1{
+        text-align: center;
+    }
+    #infos #details-text {
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #infos #details-text h1{
+        width: 65vw;
+    }
+    
+}
+@media (max-width: 870px) {
+    #otherSkills{
+        margin-left: 20px;
+        width: 50%;
+    }
+    #mother{
+        width: 100%;
+    }
+    #skill-icons{
+        margin-left: 40px;
+        width: 50%
+    }
+}
+@media (max-width: 660px) {
+    #otherSkills{
+        margin-left: 20px;
+        width: 80%;
+    }
+    #mother{
+        width: 100%;
+    }
+    #skill-icons{
+        margin-left: 20px;
+        width: 80%
+    }
+    #about-me-container{
+        height: 105vh;
+    }
+}
+/* styling of the portfolio section */
+@media (max-width: 1660px) {
+   #box-1{
+    width: 600px;
+    height: 450px;
+   }
+   #box-1 img{
+    height: 300px;
+   }
+}
+@media (max-width: 1360px) {
+   #box-1{
+    width: 500px;
+    height: 420px;
+   }
+   #box-1 img{
+    height: 260px;
+   }
+}
+@media (max-width: 1160px) {
+   #box-1{
+    width: 440px;
+    height: 370px;
+   }
+   #box-1 img{
+    height: 210px;
+   }
+}
+@media (max-width: 1040px) {
+   #box-1:nth-child(4){
+    display: none;
+   }
+
+}
+@media (max-width: 830px) {
+   #box-1{
+    width: 600px;
+    height: 450px;
+   }
+   #box-1 img{
+    height: 300px;
+   }
+}
+@media (max-width: 680px) {
+   #box-1{
+    width: 450px;
+    height: 380px;
+    margin: 20px;
+   }
+   #box-1 img{
+    height: 230px;
+   }
+}
+@media (max-width: 490px) {
+   #box-1{
+    width: 350px;
+    height: 320px;
+    margin: 20px;
+   }
+   #box-1 img{
+    height: 160px;
+   }
+}
+/* styling of the contact area */
+#single-wrapped input{
+    width: 100%;
+    margin-top: 10px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+textarea{
+    resize: none;
+}
+@media (max-width: 1580px){
+    #single-wrapped {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1330px){
+    #inp-box-1, #inp-box-2{
+        width: 30.33%;
+    }
+    #inp-box-1 input, #inp-box-2 input{
+        padding-left: 15px;
+    }
+
+}
+@media (max-width: 1100px){
+    #empty-sidebar{
+        display: none;
+    }
+    #r-wrapper{
+        width: 100%;
+    }
+    #inp-box-1, #inp-box-2{
+        width: 33.33%;
+    }
+    #title{
+        justify-content: center;
+    }
+    #title h1{
+        margin: 0px;
+    }
+
+}
+@media (max-width: 800px){
+
+    #inp-box-1, #inp-box-2{
+        width: 32.33%;
+    }
+    #title{
+        width: 90%;
+        justify-content: center;
+    }
+
+    #title h1{
+        margin: 0px;
+    }
+
+}
+@media (max-width: 600px){
+
+    #single-wrapped{
+        display: block;
+
+    }
+    #title{
+        width: 90%;
+        justify-content: center;
+    }
+    #inp-box-1, #inp-box-2{
+        width: 74%;
+        margin: auto;
+    }
+    #inp-box-2{
+        margin-top: 15px;
+    }
+    #title h1{
+        margin: 0px;
+    }
+
+}
+@media (max-width: 500px){
+
+    #single-wrapped{
+        display: block;
+
+    }
+    #title{
+        width: 50%;
+        margin-bottom: 40px;
+        justify-content: center;
+    }
+    #inp-box-1, #inp-box-2{
+        width: 74%;
+        margin: auto;
+    }
+    #inp-box-2{
+        margin-top: 15px;
+    }
+    #title h1{
+        margin: 0px;
+    }
+
+}
+/* styling of the cards section */
+@media (max-width: 1240px) {
+    #image-container img{
+        min-height: 10px;
+    }
+}
+@media (max-width: 1100px) {
+    #image-container {
+        width: 100%;
+    }
+    #image-container img{
+        max-height: 30vh;
+    }
+    #card{
+        flex-direction: column-reverse;
+    }
+    #text-area{
+        width: 100%;
+    }
+    #para{
+        width: 70%;
+    }
+    #cards-text-title{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 720px) {
+    #image-container {
+        width: 100%;
+    }
+    #image-container img{
+        max-height: 30vh;
+    }
+    #card{
+        flex-direction: column-reverse;
+    }
+    #text-area{
+        width: 100%;
+    }
+    #para{
+        width: 70%;
+    }
+    #cards-text-title{
+        margin-left: 30px;
+    }
+    #foot{
+        height: 16vh;
+    }
+    #italy{
+     margin-left: 40px;
+    }
+}
+@media (max-width: 600px) {
+    #sitename{
+        font-size: 45px;
+    }
+    #catagory{
+        font-size: 16px;
+    }
+    #foot{
+        height: 10vh;
+    }
+    #italy{
+        margin-left: 30px;
+    }
+    #rome{
+        margin-left: 10px;
+    }
+    #iran{
+        margin-left: 10px;
+    }
+}
+@media (max-width: 445px) {
+    #para{
+        margin-top: 10px;
     }
 }
