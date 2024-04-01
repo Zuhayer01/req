@@ -1,6 +1,6 @@
 "use client";
-import { motion, AnimatePresence } from "framer-motion";
-import React, { useState } from "react";
+import { motion } from "framer-motion";
+import React from "react";
 
 const Loader = () => {
   return (
