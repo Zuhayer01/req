@@ -10,7 +10,6 @@ export default {
       fontFamily: {
         Robotic : ["Smooch Sans", 'sans-serif'],
         Zuhayer : ["Jost", "sans-serif"],
-        Poppins : ["Poppins", "sans-serif"]
       },
       backgroundImage: {
         'hero': "url('../Untitled design (1).png')",

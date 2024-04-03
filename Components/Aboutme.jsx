@@ -26,27 +26,27 @@ const Aboutme = () => {
             </div>
           <div id="skill-icons" className="w-[50vw] ">
             <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">
-              <img src="../logo.png" alt="" className="h-[1.5vw] inline-block"/>
+              <img src="../logo.webp" alt="" className="h-[1.5vw] inline-block"/>
                <h1 className="inline-block font-Poppins">HTML</h1>
             </div>
             <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
-              <img src="../pngegg.png" alt="" className="h-[1.5vw] inline-block"/>
+              <img src="../pngegg.webp" alt="" className="h-[1.5vw] inline-block"/>
                <h1 className="inline-block font-Poppins">CSS</h1>
             </div>
             <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
-              <img src="../Javascript-logo.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+              <img src="../Javascript-logo.webp" alt="" className="h-[1.5vw] rounded-md inline-block"/>
                <h1 className="inline-block font-Poppins ml-2">JavaScript</h1>
             </div>
             <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
-              <img src="../react-1-logo-png-transparent-removebg-preview.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+              <img src="../react-1-logo-png-transparent-removebg-preview.webp" alt="" className="h-[1.5vw] rounded-md inline-block"/>
                <h1 className="inline-block font-Poppins ml-2">React</h1>
             </div>
             <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
-              <img src="../greensock_2x-removebg-preview.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+              <img src="../greensock_2x-removebg-preview.webp" alt="" className="h-[1.5vw] rounded-md inline-block"/>
                <h1 className="inline-block font-Poppins ml-2">Gsap</h1>
             </div>
             <div className="bg-white inline-block mr-3  my-3 px-4 py-2 rounded-3xl">
-              <img src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.png" alt="" className="h-[1.5vw] inline-block"/>
+              <img src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.webp" alt="" className="h-[1.5vw] inline-block"/>
                <h1 className="inline-block font-Poppins">Framer Motion</h1>
             </div>
           </div>
@@ -56,11 +56,11 @@ const Aboutme = () => {
             </div>
             <div>
             <div className="bg-white inline-block mr-3 px-4 py-2 rounded-3xl">
-              <img src="../open-ai-logo-8B9BFEDC26-seeklogo.com.png" alt="" className="h-[1.5vw] rounded-md inline-block"/>
+              <img src="../open-ai-logo-8B9BFEDC26-seeklogo.com.webp" alt="" className="h-[1.5vw] rounded-md inline-block"/>
                <h1 className="inline-block font-Poppins ml-2">AI Tools</h1>
             </div>
             <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">
-              <img src="../Microsoft Office.png" alt="" className="h-[1.5vw] inline-block"/>
+              <img src="../Microsoft Office.webp" alt="" className="h-[1.5vw] inline-block"/>
                <h1 className="inline-block font-Poppins">Office Softwares</h1>
             </div>
             <div className="bg-white inline-block mr-3 my-3 px-4 py-2 rounded-3xl">

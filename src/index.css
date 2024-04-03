@@ -561,3 +561,7 @@ textarea{
         margin-top: 10px;
     }
 }
+@font-face {
+    font-family: Poppins;
+    src: url(../src/Font/Poppins-Light.woff);
+}
