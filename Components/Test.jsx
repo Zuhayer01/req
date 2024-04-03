@@ -18,7 +18,7 @@ const Test = () => {
               </div>
           </div>
           <div id="image-container" className='w-1/2 h-full flex items-center justify-center'>
-            <img src="../2.png" alt="" className='min-h-96 '/>
+            <img src="../2.webp" alt="" className='min-h-96 '/>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ const Test = () => {
               </div>
           </div>
           <div id="image-container" className='w-1/2 h-full flex items-center justify-center'>
-            <img src="../2.png" alt="" className='min-h-96 '/>
+            <img src="../2.webp" alt="" className='min-h-96 '/>
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ const Test = () => {
               </div>
           </div>
           <div id="image-container" className='w-1/2 h-full flex items-center justify-center'>
-            <img src="../2.png" alt="" className='min-h-96 '/>
+            <img src="../2.webp" alt="" className='min-h-96 '/>
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ const Test = () => {
               </div>
           </div>
           <div id="image-container" className='w-1/2 h-full flex items-center justify-center'>
-            <img src="../2.png" alt="" className='min-h-96 '/>
+            <img src="../2.webp" alt="" className='min-h-96 '/>
           </div>
         </div>
       </div>

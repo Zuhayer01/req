@@ -12,7 +12,7 @@ const Aboutme = () => {
         className="h-[100vh] w-[100vw] bg-black rounded-3xl flex items-center justify-center"
       >
         <div id="my-image" className="h-full w-1/2 flex items-center justify-center">
-          <img src="../zuhayer.png" alt="" className="h-[60vh] rounded-3xl"/>
+          <img src="../zuhayer.webp" alt="" className="h-[60vh] rounded-3xl"/>
         </div>
         <div id="infos" className="h-full flex items-center justify-center flex-col">
           <div id="top-text" className="w-full ">

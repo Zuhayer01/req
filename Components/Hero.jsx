@@ -53,7 +53,7 @@ const Hero = () => {
             initial={{ top: "-100px" }}
             animate={{ top: "100%" }}
             transition={{ duration: 5, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../pngegg.png"
+            src="../pngegg.webp"
             alt=""
           />
           <motion.img
@@ -61,7 +61,7 @@ const Hero = () => {
             initial={{ top: "-200px" }}
             animate={{ top: "100%" }}
             transition={{ duration: 7, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../JavaScript-logo.png"
+            src="../JavaScript-logo.webp"
             alt=""
           />
           <motion.img
@@ -69,7 +69,7 @@ const Hero = () => {
             animate={{ top: "100%" }}
             className="-z-10"
             transition={{ duration: 8, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../logo.png"
+            src="../logo.webp"
             alt=""
           />
           <motion.img
@@ -77,7 +77,7 @@ const Hero = () => {
             animate={{ top: "100%" }}
             className="-z-10"
             transition={{ duration: 6, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../greensock_2x-removebg-preview.png"
+            src="../greensock_2x-removebg-preview.webp"
             alt=""
           />
           <motion.img
@@ -85,7 +85,7 @@ const Hero = () => {
             animate={{ top: "100%" }}
             className="-z-10"
             transition={{ duration: 4, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../react-1-logo-png-transparent-removebg-preview.png"
+            src="../react-1-logo-png-transparent-removebg-preview.webp"
             alt=""
           />
           <motion.img
@@ -93,7 +93,7 @@ const Hero = () => {
             animate={{ top: "100%" }}
             className="-z-10"
             transition={{ duration: 9, delay: 9, repeat: Infinity, ease: "linear" }}
-            src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.png"
+            src="../0_Z-jwqyt2k8NbHaQe-removebg-preview.webp"
             alt=""
           />
         </div>
